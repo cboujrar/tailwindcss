@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/src/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <title>profile_card</title>
+  </head>
+  <body class="bg-gray-200">
+    <div class="bg-white w-[400px] h-[550px] rounded-3xl m-auto">
+      <div
+        class="header bg-[url(/bleu.jpeg)] w-[385px] h-[180px] m-2 rounded-3xl flex justify-end"
+      >
+        <div
+          class="follow bg-gray-100 w-[150px] h-[50px] rounded-3xl flex items-center justify-center text-black text-2xl m-1 cursor-pointer"
+        >
+          Follow +
+        </div>
+      </div>
+      <div class="photo flex items-end justify-between px-5 mt-[-60px]">
+        <img
+          src="/profile.jpeg"
+          alt=""
+          class="w-27 h-27 rounded-full border-4 border-white"
+        />
+
+        <div class="exp flex items-center justify-center -translate-y-5 gap-2">
+          <span class="text-sm text-gray-600">exp.</span>
+
+          <div class="flex gap-[2px]">
+            <div class="w-1 h-3 rounded-full bg-purple-400"></div>
+            <div class="w-1 h-3 rounded-full bg-purple-500"></div>
+            <div class="w-1 h-3 rounded-full bg-purple-600"></div>
+            <div class="w-1 h-3 rounded-full bg-purple-700"></div>
+            <div class="w-1 h-3 rounded-full bg-red-800"></div>
+            <div class="w-1 h-3 rounded-full bg-red-600"></div>
+            <div class="w-1 h-3 rounded-full bg-red-400"></div>
+            <div class="w-1 h-3 rounded-full bg-orange-400"></div>
+            <div class="w-1 h-3 rounded-full bg-yellow-200"></div>
+            <div class="w-1 h-3 rounded-full bg-yellow-100"></div>
+            <div class="w-1 h-3 rounded-full bg-green-300"></div>
+            <div class="w-1 h-3 rounded-full bg-green-400"></div>
+            <div class="w-1 h-3 rounded-full bg-green-500"></div>
+            <div class="w-1 h-3 rounded-full bg-gray-100"></div>
+            <div class="w-1 h-3 rounded-full bg-gray-100"></div>
+            <div class="w-1 h-3 rounded-full bg-gray-100"></div>
+            <div class="w-1 h-3 rounded-full bg-gray-100"></div>
+            <div class="w-1 h-3 rounded-full bg-gray-100"></div>
+            <div class="w-1 h-3 rounded-full bg-gray-100"></div>
+            <div class="w-1 h-3 rounded-full bg-gray-100"></div>
+            <div class="w-1 h-3 rounded-full bg-gray-100"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="main m-6">
+        <div class="name text-black semi-bold text-4xl mb-2">Noah Thompson</div>
+        <div class="description text-gray-400">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+        </div>
+      </div>
+      <div
+        class="data grid grid-cols-3 text-center border-t border-b border-gray-100 mt-8"
+      >
+        <div class="likes border-r border-gray-300 py-5">
+          <p class="text-lg text-black font-bold">120K</p>
+          <p class="text-sm text-gray-500">Likes</p>
+        </div>
+        <div class="posts border-r border-gray-300 py-5">
+          <p class="text-lg text-black font-bold">50</p>
+          <p class="text-sm text-gray-500">Posts</p>
+        </div>
+        <div class="views py-5">
+          <p class="text-lg text-black font-bold">300K</p>
+          <p class="text-sm text-gray-500">Views</p>
+        </div>
+      </div>
+      <div class="contact grid grid-cols-3 text-center bg-gray-100 border-gray-100 rounded-b-3xl">
+        <div class="insta border-r border-gray-300 text-black py-5 cursor-pointer"><i class="fa-brands fa-instagram text-2xl"></i></div>
+        <div class="twitter border-r border-gray-300 text-black py-5 cursor-pointer"><i class="fa-brands fa-x-twitter text-2xl"></i></div>
+        <div class="thread text-black py-5 cursor-pointer"><i class="fa-brands fa-threads text-2xl"></i></div>
+      </div>
+    </div>
+  </body>
+</html>
